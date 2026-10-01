@@ -39,3 +39,7 @@ Clips where nothing was detected get an `events=NONE` row.
 
 Raw OCR results are cached in `cache/`, so re-running (e.g. with `--rename`, or after
 tweaking the parsing) doesn't decode the videos again. Use `--no-cache` to force it.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

@@ -2,6 +2,7 @@
 name = "fortnite-clip-ocr"
 version = "0.1.0"
 description = "OCR victim names from Fortnite highlight clips"
+license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
     "easyocr>=1.7",
