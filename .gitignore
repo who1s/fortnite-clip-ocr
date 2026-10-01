@@ -1,0 +1,34 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# OCR cache and outputs (contain clip filenames and other players' names)
+cache/
+*.csv
+*.log
+
+# Clips and frame grabs
+*.mp4
+*.mkv
+*.png
+*.jpg
+
+# Local config / secrets
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local files
+.claude/
+CLAUDE.local.md
